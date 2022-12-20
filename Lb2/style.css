@@ -1,0 +1,98 @@
+.header{
+    text-align: center;
+    height: 75px;
+    background-color: #69c8d8;
+    margin-bottom: 10px;
+
+}
+
+.right_div {
+    width: 70%;
+    height: 650px;
+    float: right;
+    border: dotted 1px #00f;
+    background-color: #caa1fc;
+}
+
+.left_div{
+    width: 30%;
+    height: 650px;
+    border: dotted 1px #ff0;
+    background-color: #e9fca1;
+    
+}
+
+.footer{
+    clear: both;
+    
+    height: 300Spx;
+    background-color: #ece57f;
+    margin-bottom: 10px;
+}
+
+
+
+.table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.right_text {
+    text-align: center;
+}
+
+TABLE {
+    text-align: center;
+    width: 1000px; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+   }
+   TD, TH {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+   }
+   TH {
+    background: #b0e0e6; /* Цвет фона */
+}
+
+.image_nure {
+    text-align: left;
+    padding-top: 35px;
+}
+
+.image_nure_div {
+    position: relative;
+}
+
+.flex-container {
+    position: relative;
+    left: 590px;
+    bottom: 165px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    width: 350px;
+    flex-wrap: wrap;
+    align-content: space-between;
+  
+    background-color: DodgerBlue;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+.rectangle {
+    height: 200px;
+    width: 100px;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+}
+
