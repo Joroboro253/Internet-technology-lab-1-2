@@ -1,3 +1,6 @@
+ul li::marker {
+    color: red;
+}
 
 .right_div {
     width: 70%;
